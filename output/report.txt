@@ -1,0 +1,15 @@
+MAULIK ANALYSIS REPORT
+========================
+
+c3.cpp <--> c5.cpp
+Similarity : 65.89 %
+Risk : HIGH
+
+c3.cpp <--> j1.java
+Similarity : 8.53 %
+Risk : LOW
+
+c5.cpp <--> j1.java
+Similarity : 11.66 %
+Risk : LOW
+

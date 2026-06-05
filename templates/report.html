@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>MAULIK - Analysis Report</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI',sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+            padding:30px;
+            color:#1e293b;
+        }
+
+        .container{
+            max-width:1200px;
+            margin:auto;
+        }
+
+        .header{
+            text-align:center;
+            margin-bottom:30px;
+        }
+
+        .header h1{
+            color:#2563eb;
+            font-size:42px;
+            margin-bottom:10px;
+        }
+
+        .header p{
+            color:#64748b;
+            font-size:18px;
+        }
+
+        .report-card{
+            background:white;
+            border-radius:20px;
+            padding:30px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.08);
+            margin-bottom:30px;
+        }
+
+        .report-card h2{
+            margin-bottom:20px;
+            color:#0f172a;
+        }
+
+        .report-content{
+            background:#f8fafc;
+            border-left:5px solid #2563eb;
+            padding:20px;
+            border-radius:10px;
+            max-height:700px;
+            overflow-y:auto;
+        }
+
+        pre{
+            white-space:pre-wrap;
+            font-size:15px;
+            line-height:1.7;
+        }
+
+        .buttons{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        .btn{
+            background:#2563eb;
+            color:white;
+            border:none;
+            padding:14px 28px;
+            border-radius:10px;
+            cursor:pointer;
+            text-decoration:none;
+            font-size:16px;
+            margin:10px;
+            display:inline-block;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <h1>MAULIK</h1>
+
+        <p>Source Code Similarity Detection System</p>
+
+    </div>
+
+    <div class="report-card">
+
+        <h2>Complete Analysis Report</h2>
+
+        <div class="report-content">
+
+            <pre>{{ report }}</pre>
+
+        </div>
+
+    </div>
+
+    <div class="buttons">
+
+    <a href="/dashboard" class="btn">
+        Back to Dashboard
+    </a>
+
+    <a href="/download_pdf" class="btn">
+        Download Report PDF
+    </a>
+
+</div>
+
+</div>
+
+</body>
+</html>

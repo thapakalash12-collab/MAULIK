@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Upload Files</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI',sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+        }
+
+        .container{
+            max-width:900px;
+            margin:80px auto;
+        }
+
+        .card{
+            background:white;
+            padding:50px;
+            border-radius:25px;
+            box-shadow:0 10px 25px rgba(0,0,0,0.08);
+            text-align:center;
+        }
+
+        h1{
+            color:#2563eb;
+            margin-bottom:10px;
+            font-size:50px;
+        }
+
+        p{
+            color:#64748b;
+            margin-bottom:40px;
+            font-size:18px;
+        }
+
+        .upload-box{
+            border:3px dashed #2563eb;
+            border-radius:20px;
+            padding:50px;
+            margin-bottom:30px;
+        }
+
+        input[type=file]{
+            font-size:18px;
+        }
+
+        .btn{
+            background:#2563eb;
+            color:white;
+            border:none;
+            padding:16px 35px;
+            border-radius:12px;
+            font-size:18px;
+            cursor:pointer;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>Upload Files</h1>
+
+            <p>
+                Select C, C++ and Java source code files for similarity analysis
+            </p>
+
+            <form
+                action="/analyze"
+                method="POST"
+                enctype="multipart/form-data"
+            >
+
+                <div class="upload-box">
+
+                    <input
+                        type="file"
+                        name="files"
+                        multiple
+                        required
+                    >
+
+                </div>
+
+                <button
+                    type="submit"
+                    class="btn"
+                >
+                    Analyze Files
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

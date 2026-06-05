@@ -1,0 +1,14 @@
+MAULIK AI ANALYSIS
+====================
+
+Most Suspicious Pair
+
+c3.cpp <--> c5.cpp
+
+Similarity : 65.89 %
+
+Risk : HIGH
+
+Recommendation : Strong similarity detected. Manual review recommended.
+
+Final Verdict : Potential Code Reuse Detected

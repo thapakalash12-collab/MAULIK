@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>MAULIK</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:'Segoe UI',sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+            overflow-x:hidden;
+        }
+
+        .hero{
+            min-height:100vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            padding:40px;
+        }
+
+        .badge{
+            background:#dbeafe;
+            color:#2563eb;
+            padding:10px 22px;
+            border-radius:30px;
+            font-size:14px;
+            font-weight:600;
+            margin-bottom:25px;
+        }
+
+        h1{
+            font-size:72px;
+            font-weight:800;
+            color:#2563eb;
+            letter-spacing:-2px;
+            margin-bottom:15px;
+        }
+
+        h2{
+            font-size:48px;
+            font-weight:700;
+            color:#0f172a;
+            max-width:1100px;
+            margin-bottom:25px;
+            line-height:1.2;
+        }
+
+        p{
+            max-width:850px;
+            font-size:20px;
+            line-height:1.8;
+            color:#64748b;
+            margin-bottom:45px;
+        }
+
+        .btn{
+            text-decoration:none;
+            background:#2563eb;
+            color:white;
+            padding:16px 38px;
+            border-radius:14px;
+            font-size:18px;
+            font-weight:600;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+        }
+
+        .features{
+            margin-top:80px;
+            display:flex;
+            gap:30px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .feature-card{
+            background:white;
+            width:260px;
+            padding:30px;
+            border-radius:20px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.08);
+        }
+
+        .feature-card h3{
+            color:#2563eb;
+            font-size:28px;
+            margin-bottom:15px;
+        }
+
+        .feature-card p{
+            font-size:16px;
+            margin:0;
+            color:#64748b;
+            line-height:1.6;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="hero">
+
+        <div class="badge">
+            DAA Second Year Project
+        </div>
+
+        <h1>MAULIK</h1>
+
+        <h2>
+            Source Code Similarity Detection System
+        </h2>
+
+        <p>
+            Detect source code similarity using Token-Based Matching and
+            Rabin-Karp Algorithm. Generate AI-powered insights, risk
+            classification, similarity reports and dashboard analytics
+            automatically.
+        </p>
+
+        <a href="/upload" class="btn">
+            Start Analysis
+        </a>
+
+        <div class="features">
+
+            <div class="feature-card">
+
+                <h3>Fast</h3>
+
+                <p>
+                    Rabin-Karp based matching enables efficient
+                    source code comparison.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <h3>Smart</h3>
+
+                <p>
+                    AI-generated insights identify suspicious
+                    similarity patterns automatically.
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <h3>Secure</h3>
+
+                <p>
+                    Analyze only the files selected by the user
+                    without hardcoded assumptions.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
