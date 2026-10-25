@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include "report.h"
-
+ 
 void generateReport(struct Result results[], int count)
 {
     FILE *fp;
