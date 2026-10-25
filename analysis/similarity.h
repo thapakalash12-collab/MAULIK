@@ -1,4 +1,4 @@
-#ifndef SIMILARITY_H
+#ifndef SIMILARITY_H 
 #define SIMILARITY_H
 
 float calculateSimilarity(
